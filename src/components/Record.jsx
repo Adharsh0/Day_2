@@ -12,11 +12,11 @@ const Record = () => {
       }
       
       const rows = [
-        createData('Adharsh','B22CS1104','cs','s5','8.5'),
-        createData('Rohit','B22CS1105','cs','s5','8.5'),
-        createData('Gagan','B22CS1106','cs','s5','8.5'),
-        createData('Varun','B22CS1107','cs','s5','8.5'),
-        createData('Faris','B22CS1108','cs','s5','8.5'),
+        createData('Adharsh','B22CS1104','s5','cs','8.5'),
+        createData('Rohit','B22CS1105','s5','cs','8.5'),
+        createData('Gagan','B22CS1106','s5','cs','8.5'),
+        createData('Varun','B22CS1107','s5','cs','8.5'),
+        createData('Faris','B22CS1108','s5','cs','8.5'),
       ];
       
   return (
@@ -42,7 +42,7 @@ const Record = () => {
                 {row.NAME}
               </TableCell>
               <TableCell align="right">{row.ID}</TableCell>
-              <TableCell align="right">{row.NAME}</TableCell>
+              <TableCell align="right">{row.SEMESTER}</TableCell>
               <TableCell align="right">{row.DEPT}</TableCell>
               <TableCell align="right">{row.CGPA}</TableCell>
             </TableRow>
